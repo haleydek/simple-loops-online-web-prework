@@ -1,6 +1,6 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
-def loop_iterator(7)
+def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
   # The integer is the number of times the loops should puts out the phrase
@@ -13,7 +13,8 @@ def loop_iterator(7)
   loop do
     counter += 1
     puts phrase
-    break if counter > 7
+    if counter > number_of_times
+      break
   end
 end
 
